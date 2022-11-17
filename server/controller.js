@@ -1,5 +1,5 @@
 const bcrypt = require('bcryptjs');
-const {CONNECTION_STRING} = "postgres://lfdiwqjfgamzmi:b51ab31c87da498d594d603df842e98d5ce310192950f5041f0eebc0e4958be9@ec2-34-200-35-222.compute-1.amazonaws.com:5432/d559rp4c88crr7";
+const CONNECTION_STRING = process.env;
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize(CONNECTION_STRING, {
     dialect: 'postgres',
