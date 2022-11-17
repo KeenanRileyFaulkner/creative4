@@ -1,7 +1,3 @@
-# Project Overview
-
-This is my first major React Application. It utilizes tailwind css for all styling, and is a fan page for The Killers. It was created as a DevMountain Foundations Capstone.
-
 ## MVP
 
 The project is intended to allow users to learn about The Killers, listen to brief snippets of their music, and enjoy full playthroughs of covers I have personally created of some of their music. 
@@ -14,24 +10,4 @@ Styles are highly customized, making use of tailwind to quickly prototype the UI
 
 Additionally, custom hooks are used for managing authentication with react router and for updating the document title dynamically.
 
-## Other Important Project Information
-
-### Planning
-
-You can view the planning doc [on google docs](https://docs.google.com/document/d/1Uqh2AuGL0GP4Rnbelph28px_zfgFIwO0tccHpdt-w3c/edit?usp=sharing).
-
-### Database Model
-
-The database model is included in the repo as a pdf. The database utilizes Postgres.
-
-### Server
-
-The server was designed in NodeJS and currently utilizes about 20 endpoints.
-
-### Design
-
-You can view the wireframes and style guide for this project [on figma](https://www.figma.com/file/aAwkgiaTzavuDBbbRJcEaA/capstone-design?node-id=0%3A1).
-
-### Production Build
-
-This app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The production build is contained in a different repo, but essentially reflects the dev environment.
+To visit the admin page, use the /build/admin endpoint. You may view, but not update database information using the login/password "admin" "admin".
